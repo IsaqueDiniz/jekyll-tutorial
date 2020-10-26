@@ -1,0 +1,17 @@
+---
+title: "Home";
+author
+	name: "Isaque"
+	age: 20
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+	<h1>{{ page.title | upcase }}</h1>
+	<p>Author:{{ page.author.name }} | Age: {{ page.author.age }}</p>
+  </body>
+</html>
