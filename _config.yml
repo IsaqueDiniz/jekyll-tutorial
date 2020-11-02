@@ -1,3 +1,6 @@
+url: isaquediniz.github.io
+baseurl: /jekyll-tutorial
+
 collections:
   authors:
     output: true
