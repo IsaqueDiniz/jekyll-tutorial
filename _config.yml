@@ -1,5 +1,7 @@
 baseurl: /jekyll-tutorial
-url: https://isaquediniz.github.io
+url: ""
+github_username:  IsaqueDiniz
+markdown: kramdown
 
 collections:
   authors:
