@@ -1,5 +1,5 @@
-url: isaquediniz.github.io
 baseurl: /jekyll-tutorial
+url: https://isaquediniz.github.io
 
 collections:
   authors:
