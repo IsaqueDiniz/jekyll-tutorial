@@ -1,5 +1,7 @@
+title: jekyll-tutorial
+description: teste
 baseurl: "/jekyll-tutorial"
-url: 
+url: "https://isaquediniz.github.io/"
 github_username:  IsaqueDiniz
 markdown: kramdown
 

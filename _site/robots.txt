@@ -1,1 +1,1 @@
-Sitemap: https://isaquediniz.github.io/jekyll-tutorial/sitemap.xml
+Sitemap: https://isaquediniz.github.io//jekyll-tutorial/sitemap.xml
