@@ -1,10 +1,21 @@
 <!doctype html>
 <html>
+{% assign base = ''
+%}{% assign depth = page.url | split: '/' | size | minus: 1
+%}{% if depth <= 1
+%}{% assign base = '.'
+%}{% elsif depth == 2
+%}{% assign base = '..'
+%}{% elsif depth == 3
+%}{% assign base = '../..'
+%}{% elsif depth == 4
+%}{% assign base = '../../..'
+%}{% endif
+%}
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-		<base href="/jekyll-tutorial/">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{ base }}/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
   </head>
